@@ -1,0 +1,53 @@
+@media screen and (max-width: 1024px) {
+  .unavailable {
+    display: flex;
+  }
+
+  .site-header {
+    display: none;
+  }
+
+  .main-homepage-article {
+    display: none;
+  }
+
+  .reasons-article {
+    display: none;
+  }
+
+  .scroll-horizontal-article-container {
+    display: none;
+  }
+
+  .horizontal-scroll-article {
+    display: none;
+  }
+
+  .parallax-window-seasons {
+    display: none;
+  }
+
+  .last-articles {
+    display: none;
+  }
+
+  .about-us {
+    display: none;
+  }
+
+  .recruitment {
+    display: none;
+  }
+
+  .places-article {
+    display: none;
+  }
+
+  .newsletter-bloc {
+    display: none;
+  }
+
+  .site-footer {
+    display: none;
+  }
+}
