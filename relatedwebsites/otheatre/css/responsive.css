@@ -1,0 +1,368 @@
+@media screen and (max-width: 767px) {
+  /*  
+________________
+TITLE SEPARATOR */
+
+  .separator {
+    height: 50px;
+  }
+
+  .separator-title {
+    font-size: 30px;
+    top: -14px;
+    left: 50px;
+  }
+
+  .separator-subtitle {
+    margin-bottom: -2px;
+  }
+
+  /*
+________________
+HEADER */
+
+  .site-header {
+    height: 60px;
+  }
+
+  .site-logo {
+    width: 50px;
+    height: auto;
+  }
+
+  .site-header-menu-item {
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .site-header-menu-item div {
+    display: none;
+  }
+
+  .fil-ariane {
+    height: 30px;
+  }
+
+  /*
+________________ 
+BURGER MENU */
+
+  .burger {
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+  }
+
+  .burger-line {
+    margin-bottom: 10px;
+    width: 45px;
+    height: 5px;
+    background-color: #2b2c43;
+    display: block;
+    border-radius: 3px;
+    transition: all 0.3s;
+    transform-origin: 0 50%;
+  }
+
+  .burger-line:last-child {
+    margin-bottom: 0;
+  }
+
+  .burger.active .burger-line:nth-child(1) {
+    transform-origin: 0 50%;
+    transform: rotate(45deg);
+  }
+
+  .burger.active .burger-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger.active .burger-line:nth-child(3) {
+    transform-origin: 0 50%;
+    transform: rotate(-45deg);
+  }
+
+  .site-header-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding-top: 15%;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+    height: 100vh;
+    background: #edf2f4;
+    opacity: 1;
+    transition: all 300ms linear;
+    transform: translate(-100%);
+  }
+
+  .site-header-menu.active {
+    opacity: 1;
+    transform: translate(0%);
+    box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .site-header-menu li {
+    margin: 3% 0;
+    font-size: 20px;
+  }
+
+  .site-header-menu li a {
+    padding: 20px 0px;
+  }
+
+  /* 
+________________
+________________
+HOME PAGE  */
+
+
+  /* 
+________________
+HIGHLIGHT */
+
+  .main-article {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-article-title {
+    padding-top: 10px;
+    font-size: 35px;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .main-article-text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .main-article-checkbox {
+    margin-left: 10%;
+  }
+
+  .main-article-left-side {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .main-article-right-side {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .main-article-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .second-title-style {
+    margin-bottom: 20px;
+  }
+
+  /*  
+________________
+HIGHLIGHTED GENRE */
+
+  .genre-article-quote {
+    font-size: 22px;
+  }
+
+  .genre-article-underline {
+    width: 60%;
+    border-bottom: 3px solid #f21e36;
+    margin-top: 60px;
+  }
+
+  .genre-article-quote-author {
+    font-size: 14px;
+    margin-bottom: 15%;
+  }
+
+  .article-distribution {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* 
+________________
+ALL STYLES */
+
+  .article-kind {
+    height: 750px;
+    flex-direction: column;
+    margin: 0px 0;
+  }
+
+  .play-miniature-frame {
+    max-width: 90%;
+    margin-bottom: 80px;
+  }
+
+  .play-miniature-text {
+    margin-bottom: 20px;
+  }
+
+  .article-kind-image {
+    height: 325px;
+  }
+  .article-kind-text-bloc {
+    width: 100%;
+  }
+
+  .article-kind-title {
+    margin-top: 5%;
+    font-size: 40px;
+  }
+
+  .article-kind-link {
+    margin-bottom: 8%;
+  }
+
+  /*  
+________________
+GIFT CARD */
+
+  .gift-article-global {
+    flex-direction: column;
+  }
+
+  .gift-article-images {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .gift-article-card {
+    width: 80%;
+  }
+
+  .gift-article-shadow {
+    width: 80%;
+    margin-bottom: 15%;
+  }
+
+  .gift-article-text {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+  }
+
+  .second-title-style-sizer {
+    width: 80%;
+    line-height: 40px;
+  }
+
+  .gift-article-underline {
+    border-bottom: 4px solid #f21e36;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .gift-article-description {
+    width: 90%;
+    margin-bottom: 20%;
+  }
+
+  /*
+_________________
+NEWSLETTER */
+
+  .newsletter-bloc {
+    margin-top: 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 440px;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .newsletter-infos {
+    text-align: center;
+    margin-right: 0;
+    width: 50%;
+  }
+  .newsletter-title {
+    margin-bottom: 25%;
+  }
+
+  .form-input {
+    font-size: 16px;
+  }
+
+  .registration-form-submit {
+    margin-left: -42px;
+  }
+
+  /*
+_________________
+FOOTER */
+
+  .footer-items-alignment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: auto;
+  }
+
+  .footer-items {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+
+  .footer-items-alignment > div:first-child {
+    flex: 0 1 100%;
+    display: flex;
+    margin-left: -30px;
+  }
+
+  .site-footer-logo {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-underline {
+    width: 80%;
+    margin-top: 0;
+  }
+
+  .footer-bottom {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .footer-bottom li {
+    margin-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+/* 
+________________
+________________
+CSS LANDING PAGE  */
+}

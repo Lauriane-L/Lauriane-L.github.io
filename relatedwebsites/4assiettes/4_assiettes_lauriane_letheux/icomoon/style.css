@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?rm0cnl');
+  src:  url('fonts/icomoon.eot?rm0cnl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?rm0cnl') format('truetype'),
+    url('fonts/icomoon.woff?rm0cnl') format('woff'),
+    url('fonts/icomoon.svg?rm0cnl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin:before {
+  content: "\e900";
+}
+.icon-arrow_right_blue:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-arrow_right_white:before {
+  content: "\e902";
+  color: #274655;
+}
+.icon-instagram:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-facebook:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-pinterest:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-touch_finger .path1:before {
+  content: "\e906";
+  color: rgb(24, 157, 164);
+}
+.icon-touch_finger .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-calendar .path1:before {
+  content: "\e908";
+  color: rgb(24, 157, 164);
+}
+.icon-calendar .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-credit_card .path1:before {
+  content: "\e90a";
+  color: rgb(24, 157, 164);
+}
+.icon-credit_card .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-home .path1:before {
+  content: "\e90c";
+  color: rgb(24, 157, 164);
+}
+.icon-home .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,169 @@
+@media only screen and (min-width: 768px) and (max-width: 966px) {
+  /*
+    _______________
+    _______________ 
+    ________________
+    GLOBAL STYLE */
+
+  html {
+    font-size: 0.10351966873706vw;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .site-header-responsive {
+    display: none;
+  }
+  /*
+    ________________
+    PAGE D'ACCEUIL   */
+
+  .download {
+    height: 60rem;
+    padding: 0 20rem;
+    border-radius: 20rem;
+    font-size: 20rem;
+  }
+  /* MAIN ARTICLE */
+  .main-article-position {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 20%;
+    padding-right: 10%;
+  }
+
+  .side-position {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10%;
+  }
+
+  .first-plate img {
+    width: 85%;
+  }
+
+  .second-plate img {
+    width: 55%;
+  }
+
+  .third-plate img {
+    width: 60%;
+  }
+
+  .third-plate {
+    left: -5%;
+    top: 45%;
+  }
+
+  .forth-plate img {
+    width: 45%;
+  }
+
+  .forth-plate {
+    left: 35%;
+    top: 20%;
+  }
+
+  .panneau {
+    height: 30vh;
+  }
+
+  /* SKILLS */
+
+  .item-city-nav {
+    font-size: 35rem;
+  }
+
+  /*
+    ________________
+    PAGE CV   */
+
+  .cv {
+    height: 100vh;
+  }
+
+  /*
+________________
+PAGE CONTACT   */
+
+  .carte-visite {
+    width: auto;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: -45%;
+  }
+
+  /*
+________________
+PAGE MENTIONS   */
+
+  .mentions-legales {
+    width: 80vw;
+  }
+
+  /*
+    ________________
+    PAGE PROJETS   */
+
+  /* IMAGE GRILLE   */
+
+  .image-grid {
+    height: 350vh;
+    padding: 5% 10%;
+  }
+
+  .image-item .image-item-link div {
+    width: 50px;
+  }
+  /*
+    ________________
+    PAGES PROJET   */
+
+  .project-organization {
+    flex-direction: column-reverse;
+  }
+
+  .project-leftside {
+    width: 100%;
+    margin-top: 5%;
+    align-items: center;
+  }
+
+  .project-rightside {
+    width: 80%;
+  }
+
+  .project-title {
+    margin-left: 10vw;
+  }
+
+  .project-description {
+    margin-left: 10vw;
+    width: 80vw;
+  }
+
+  .portfolio-button {
+    margin-left: 10vw;
+  }
+
+  .projet-image {
+    width: auto;
+    height: 40vh;
+  }
+
+  .projet-image-long {
+    width: auto;
+    height: 120vh;
+    margin-bottom: 5vh;
+  }
+}

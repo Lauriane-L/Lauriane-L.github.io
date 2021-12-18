@@ -1,0 +1,571 @@
+@charset "utf-8";
+
+/* 
+________________
+HEADER */
+
+.site-header {
+  height: 110rem;
+  padding: 0 20rem;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.site-header-logo {
+  flex: none;
+}
+
+.anim-header {
+  height: 60rem;
+  transition: all 500ms ease-out;
+  background-color: rgba(253, 87, 56, 1);
+}
+
+.site-header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  flex: auto;
+}
+
+.site-header-menu-item a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18rem;
+  padding-bottom: 4rem;
+}
+
+.site-header-menu-item {
+  font-family: "Lexend", sans-serif;
+  overflow: hidden;
+  position: relative;
+  font-size: 18rem;
+  color: #fff;
+}
+
+.site-header-menu-item span {
+  padding: 10rem;
+  display: inline-block;
+  transition: transform 0.3s ease-out;
+}
+
+.site-header-menu-item span:nth-child(2) {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 100%;
+}
+
+.site-header-menu-item:hover span {
+  transform: translateX(-100%);
+}
+
+.site-header-account a::before {
+  font-family: icomoon;
+  font-size: 22rem;
+  content: "\e90d";
+  color: #fff;
+}
+
+.site-header-basket a::before {
+  font-family: icomoon;
+  font-size: 22rem;
+  content: "\e902";
+  color: #fff;
+}
+
+.site-header-picto {
+  display: flex;
+  transition: opacity 200ms ease-in-out;
+}
+
+.site-header-picto:hover {
+  opacity: 0.7;
+}
+
+.site-header-picto li {
+  margin-right: 30rem;
+}
+
+.site-header-picto a {
+  text-decoration: none;
+}
+
+.site-header-picto li:last-child {
+  margin-right: 0;
+}
+
+/*
+________________ 
+BURGER MENU */
+
+.burger {
+  display: none;
+}
+
+/*
+________________
+MAIN ARTICLE  */
+
+.main-article {
+  position: relative;
+  background-color: rgba(253, 87, 56, 0.9);
+  height: 100vh;
+  padding-top: 130rem;
+}
+
+.mouseover-elements {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bloc {
+  position: absolute;
+  width: 80vw;
+  height: 70vh;
+}
+
+.skateur-bloc img {
+  width: 20vw;
+}
+
+.skateur-bloc {
+  left: 20%;
+  top: 22%;
+  z-index: 4;
+}
+
+.skatepark-bloc img {
+  width: 25vw;
+}
+
+.skatepark-bloc {
+  left: 15%;
+  top: 15%;
+  z-index: 3;
+}
+
+.first-bloc {
+  background-color: #590c5c;
+  left: 10%;
+  top: 5%;
+  z-index: 2;
+}
+
+.second-bloc {
+  background-color: #c80baf;
+  left: 17%;
+  top: 2%;
+  z-index: 1;
+}
+
+.third-bloc {
+  background-color: #fc9a00;
+  left: 5%;
+  top: 10%;
+  z-index: 0;
+}
+
+.main-article-infos {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 35%;
+}
+
+.main-article-title {
+  margin-bottom: 20rem;
+}
+
+.main-article-title span {
+  display: block;
+}
+
+.main-article-brand {
+  margin-bottom: 10rem;
+}
+
+.main-article-event {
+  font-size: 28rem;
+}
+
+.main-article-text {
+  width: 50%;
+  margin-bottom: 30rem;
+}
+
+/*
+________________
+SPORTS  */
+
+.sports-article {
+  position: relative;
+  height: calc(100vh - 60rem);
+}
+
+.sport-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sports-list {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.item-sport {
+  color: white;
+  width: 100%;
+  padding: 20rem;
+  text-align: center;
+  font-family: "dk_plakkaatregular";
+  font-size: 30rem;
+  letter-spacing: 3rem;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.item-sport.active {
+  background-color: rgba(252, 154, 0, 0.9);
+}
+
+.item-sport.active span::before {
+  margin-right: 12rem;
+  content: "-- ";
+}
+
+.item-sport.active span::after {
+  margin-left: 4rem;
+  content: " --";
+}
+
+/*
+_________________
+HORIZONTAL SCROLL ARTICLES */
+
+.scroll-horizontal-article {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.horizontal-scroll-article {
+  height: calc(100vh - 60rem);
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  flex: none;
+}
+
+.nazare-article {
+  background-color: #fd5738;
+}
+
+.bundoran-article {
+  background-color: #c80baf;
+}
+
+.saint-sebastien-article {
+  background-color: #fc9a00;
+}
+
+.biarritz-article {
+  background-color: #fd575e;
+}
+
+.article-content-disposition {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 0 10% 10% 10%;
+}
+
+.article-image-side {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage-article-picture-nazare {
+  width: 60%;
+}
+
+.stage-article-picture-bundoran {
+  width: 50%;
+}
+
+.stage-article-picture-saint-sebastien {
+  width: 50%;
+}
+
+.stage-article-picture-biarritz {
+  width: 80%;
+}
+
+.stage-number sup {
+  font-size: 30rem;
+}
+
+.article-infos-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.stage-date {
+  font-size: 40rem;
+  padding-left: 10%;
+}
+
+.date-style {
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Lexend", sans-serif;
+}
+
+.stage-number {
+  font-size: 50rem;
+  color: #fff;
+  font-family: "Lexend", sans-serif;
+  font-weight: 900;
+  margin-bottom: 20rem;
+}
+
+.stage-text-position {
+  max-width: 700rem;
+  margin-bottom: 30rem;
+}
+
+.horizontal-scroll-article:nth-child(even) .article-content-disposition {
+  flex-direction: row-reverse;
+}
+
+.horizontal-scroll-article:nth-child(even) .article-infos-side {
+  padding-left: 10%;
+}
+
+/*
+________________
+PARALAXE WINDOW  */
+
+.parallax-home {
+  background-image: url(../img/bmx_fixed.jpg);
+}
+
+/*
+________________
+IMAGE GRILLE   */
+
+.image-grid {
+  width: 100%;
+  height: 250vh;
+  display: flex;
+  padding: 5% 15%;
+  overflow: hidden;
+}
+
+.image-column {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-column:first-child {
+  margin-right: 40rem;
+}
+
+.image-column .image-item {
+  min-height: 0;
+  margin-bottom: 40rem;
+}
+
+.image-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.image-item:last-child {
+  margin-bottom: 0;
+}
+
+.image-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: filter 300ms ease-in-out;
+}
+
+.image-item-number {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  font-size: 100rem;
+  font-family: "Lexend", sans-serif;
+  color: white;
+  opacity: 0.8;
+}
+
+.image-item a {
+  position: absolute;
+  right: 5rem;
+  bottom: 5rem;
+  font-size: 20rem;
+  font-family: "Lexend", sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.image-item .image-item-link div {
+  width: 0;
+  transition: width 300ms ease-in-out;
+  overflow: hidden;
+}
+
+.image-item .image-item-link span {
+  text-align: right;
+  margin-right: 10rem;
+}
+
+.image-item:hover .image-item-link div {
+  width: 50rem;
+}
+
+.image-item:hover img {
+  filter: sepia(40%);
+}
+
+.image-item-1 {
+  flex: 2;
+}
+
+.image-item-2 {
+  flex: 6;
+}
+
+.image-item-3 {
+  flex: 2;
+}
+
+.image-item-4 {
+  flex: 3;
+}
+
+.image-item-5 {
+  flex: 4;
+}
+
+.image-item-6 {
+  flex: 2;
+}
+
+.image-item-7 {
+  flex: 3;
+}
+
+.image-item-8 {
+  flex: 2;
+}
+
+/*
+________________
+ACTUS   */
+
+.background-tag {
+  background-image: url(../img/tag.jpg);
+  object-fit: cover;
+  position: relative;
+}
+
+.background-gotcha {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  right: 2%;
+  top: 5%;
+  z-index: 1;
+}
+
+.actus {
+  position: relative;
+  height: 100%;
+  background-color: rgba(253, 87, 94, 0.9);
+  display: flex;
+  flex-direction: column;
+}
+
+.title-disposition {
+  padding-top: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.article-images-disposition {
+  display: flex;
+  padding: 5% 15%;
+  z-index: 2;
+}
+
+.article-image-item {
+  flex: 1 1 50%;
+  min-width: 0;
+  position: relative;
+}
+
+.article-image-item:first-child {
+  margin-right: 40rem;
+}
+
+.actu-button {
+  align-self: center;
+  margin-bottom: 5%;
+}
+
+/*
+________________
+SHOP   */
+
+.shop {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-title-line {
+  background-color: #fc9a00;
+}
+
+.shop-title {
+  color: #fc9a00;
+}
+
+.shop-button {
+  color: #fc9a00;
+  border: 5px solid #fc9a00;
+  margin-bottom: 5%;
+  align-self: center;
+}
+
+.shop .image-item {
+  cursor: default;
+}
+
+.shop .image-item:hover img {
+  filter: none;
+}

@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?53u67x');
+  src:  url('fonts/icomoon.eot?53u67x#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?53u67x') format('truetype'),
+    url('fonts/icomoon.woff?53u67x') format('woff'),
+    url('fonts/icomoon.svg?53u67x#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow_down:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-arrow:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-basket:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-facebook_squared:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-g_picto:before {
+  content: "\e904";
+}
+.icon-insta_squared:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-insta:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-left_wave:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-location:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-right_wave:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-ticktok_squared:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-trait:before {
+  content: "\e90b";
+}
+.icon-twitter_squared:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-user:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-youtube_squared:before {
+  content: "\e90e";
+  color: #fff;
+}

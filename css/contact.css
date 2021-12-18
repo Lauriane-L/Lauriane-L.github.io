@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+html {
+  font-size: 1px;
+}
+
+/*
+________________
+PAGE CONTACT   */
+
+.carte-visite {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

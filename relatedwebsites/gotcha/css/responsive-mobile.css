@@ -1,0 +1,462 @@
+@media screen and (max-width: 767px) {
+  /*
+  _______________
+  _______________ 
+  ________________
+  GLOBAL STYLE */
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .text-style {
+    font-size: 16rem;
+    line-height: 24rem;
+  }
+
+  .second-title-style {
+    font-size: 30rem;
+    line-height: 39rem;
+  }
+
+  .title-line {
+    height: 5rem;
+  }
+
+  .parallax-window {
+    height: 15vh;
+  }
+
+  .newsletter-alignment {
+    margin-left: 15%;
+    margin-right: auto;
+    width: 80vw;
+  }
+
+  .form-input {
+    font-size: 22rem;
+    width: 220rem;
+  }
+
+  .footer-items-alignment {
+    flex-direction: column;
+    padding-left: 15%;
+    padding-top: 0;
+  }
+
+  .ticket-footer {
+    left: -25%;
+    top: 0%;
+  }
+
+  .ticket-footer img {
+    width: 45%;
+  }
+
+  .skateur-footer {
+    left: 45%;
+    top: 27%;
+  }
+
+  .skateur-footer img {
+    width: 100%;
+  }
+
+  .footer-bottom {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 110rem;
+  }
+
+  .footer-bottom li {
+    margin-bottom: 10rem;
+  }
+
+  /*
+  _______________
+  _______________ 
+  ________________
+  HOME PAGE */
+
+  /*
+  ________________ 
+  BURGER MENU */
+
+  .site-header-logo {
+    z-index: 20;
+  }
+
+  .site-header-menu-item:first-child {
+    padding-top: 80rem;
+  }
+
+  .burger {
+    margin-left: auto;
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+  }
+
+  .burger-line {
+    position: relative;
+    z-index: 20;
+    margin-bottom: 10rem;
+    width: 45rem;
+    height: 5rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0rem;
+    transition: all 0.3s;
+    transform-origin: 0 50%;
+  }
+
+  .burger-line:last-child {
+    margin-bottom: 0;
+  }
+
+  .burger.active .burger-line:nth-child(1) {
+    transform-origin: 0 50%;
+    transform: rotate(45deg);
+  }
+
+  .burger.active .burger-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger.active .burger-line:nth-child(3) {
+    transform-origin: 0 50%;
+    transform: rotate(-45deg);
+  }
+
+  .site-header-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 550rem;
+    background-color: rgba(253, 87, 56, 0.9);
+    opacity: 1;
+    transition: all 300ms linear;
+    transform: translateY(-550rem);
+  }
+
+  .site-header-menu.active {
+    transform: translateY(0);
+    box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .site-header-menu li {
+    margin: 3% 0;
+    font-size: 20rem;
+  }
+
+  /*
+  ________________
+  MAIN ARTICLE  */
+
+  .main-article {
+    height: 130vh;
+    padding-top: 90rem;
+  }
+
+  .main-article-infos {
+    position: absolute;
+    z-index: 5;
+    left: 20%;
+    top: 55%;
+  }
+
+  .main-article-text {
+    width: 70%;
+  }
+
+  .main-article-event {
+    font-size: 18rem;
+  }
+
+  .bloc {
+    height: 100vh;
+  }
+
+  .skateur-bloc {
+    top: 12%;
+  }
+
+  .skateur-bloc img {
+    width: 55vw;
+  }
+
+  .skatepark-bloc {
+    left: 15%;
+    top: 10%;
+    z-index: 3;
+  }
+
+  .skatepark-bloc img {
+    width: 70vw;
+  }
+
+  /*
+  ________________
+  SPORTS  */
+
+  .item-sport {
+    width: 100%;
+    font-size: 24rem;
+    padding: 20rem;
+  }
+
+  /*
+  _________________
+  HORIZONTAL SCROLL ARTICLES */
+
+  .scroll-horizontal-article {
+    flex-direction: column;
+  }
+
+  .article-content-disposition {
+    flex-direction: column;
+  }
+
+  .stage-article-picture-nazare {
+    width: 100%;
+  }
+
+  .stage-article-picture-bundoran {
+    width: 70%;
+  }
+
+  .stage-article-picture-saint-sebastien {
+    width: 65%;
+  }
+
+  .stage-article-picture-biarritz {
+    width: 90%;
+  }
+
+  .article-image-side {
+    width: 90%;
+  }
+
+  .article-infos-side {
+    width: 100%;
+  }
+
+  .horizontal-scroll-article:nth-child(even) .article-content-disposition {
+    flex-direction: column;
+  }
+
+  .horizontal-scroll-article:nth-child(2n) .article-infos-side {
+    padding-left: 0;
+  }
+
+  .stage-date {
+    font-size: 18rem;
+  }
+
+  .stage-number {
+    font-size: 30rem;
+  }
+
+  .button-stages-article {
+    margin-bottom: 100rem;
+  }
+
+  /*
+  ________________
+  IMAGE GRILLE   */
+
+  .image-grid {
+    flex-direction: column;
+    padding: 5% 5%;
+    height: auto;
+  }
+
+  .image-column:first-child {
+    margin-right: 0;
+  }
+
+  .image-item:last-child {
+    margin-bottom: 40rem;
+  }
+
+  .image-item .image-item-link div {
+    width: 50rem;
+  }
+
+  /*
+  ________________
+  ACTUS   */
+
+  .article-images-disposition {
+    flex-direction: column;
+  }
+
+  .article-images-disposition {
+    padding: 5% 5%;
+  }
+
+  .article-image-item:first-child {
+    margin-right: 0;
+    margin-bottom: 40rem;
+  }
+
+  .image-item a {
+    font-size: 16rem;
+  }
+
+  .background-gotcha {
+    width: 60%;
+    right: 2%;
+    top: 45%;
+  }
+
+  /*
+  ________________
+  SHOP   */
+
+  .shop-button {
+    margin-bottom: 20%;
+  }
+
+  /* 
+  _______________
+  _______________ 
+  ________________
+  LANDING PAGE */
+
+  /* 
+  ________________
+  HEADER */
+
+  .skateur-landing-header {
+    height: 50vh;
+    top: 62%;
+    right: 5%;
+  }
+
+  .gotcha-white {
+    height: 50vh;
+    top: 65%;
+    right: 5%;
+  }
+
+  .portugal-map {
+    display: none;
+  }
+
+  .landing-text {
+    margin-top: 15%;
+    width: 65vw;
+    margin-left: 10%;
+    margin-bottom: 65%;
+  }
+
+  /* 
+  ________________
+  COUNTDOWN */
+
+  .countdown-disposition {
+    flex-wrap: wrap;
+    width: 86vw;
+    justify-content: flex-start;
+    padding: 0 0;
+    margin: 10%;
+  }
+
+  .countdown-bloc {
+    width: 140rem;
+    height: 140rem;
+    border: 8px solid #fd575e;
+    margin-bottom: 20rem;
+  }
+
+  .number {
+    font-size: 30rem;
+  }
+
+  .countdown-id {
+    font-size: 20rem;
+  }
+
+  /* 
+  ________________
+  SPORT POP */
+
+  .sports-article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .item-sport span {
+    font-size: 24rem;
+  }
+
+  .item-sport {
+    margin-bottom: 0;
+  }
+
+  /* 
+  ________________
+  COMPETITION DESCRIPTION ARTICLES */
+
+  .competition-description-alignment {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .competition-description-image {
+    width: 100%;
+  }
+
+  .competition-description-text {
+    width: 100%;
+    padding: 50rem;
+    max-width: 800rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .competition-description-alignment:nth-child(even) {
+    flex-direction: column;
+  }
+
+  /* 
+  ________________
+  STYLE SHARER */
+
+  .style-sharer {
+    margin-bottom: 150rem;
+  }
+
+  .style-sharer-item {
+    width: 187rem;
+    height: 250rem;
+  }
+
+  /* 
+  ________________
+  SLOGAN ANIM */
+
+  .slogan-anim {
+    width: 120vw;
+  }
+
+  /* 
+  ________________
+  PARALLAXE WINDOW */
+
+  .parallax-landing-bottom {
+    height: 30vh;
+    margin-bottom: 50rem;
+    font-size: 20rem;
+  }
+}

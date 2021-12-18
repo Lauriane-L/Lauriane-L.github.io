@@ -1,0 +1,341 @@
+@charset "utf-8";
+
+/* 
+________________
+HEADER */
+
+.site-header-landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110rem;
+  background-color: rgba(253, 87, 56, 0.9);
+}
+
+.landing-main-article {
+  position: relative;
+  background-color: rgba(253, 87, 56, 0.9);
+  padding-left: 5%;
+  padding-bottom: 30rem;
+  display: flex;
+  align-items: center;
+}
+
+.slogan-anim-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.portugal-map {
+  margin-top: 10%;
+  height: 55vh;
+  width: auto;
+}
+
+.landing-text {
+  margin-top: 10%;
+  width: 30vw;
+  margin-left: 2%;
+}
+
+.landing-text-title {
+  color: white;
+  font-size: 45rem;
+  font-family: "dk_plakkaatregular";
+  margin-bottom: 10rem;
+}
+
+.landing-text-title sup {
+  font-size: 20rem;
+}
+
+.landing-text-date {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Lexend", sans-serif;
+  font-weight: 900;
+  margin-bottom: 20rem;
+  font-size: 28rem;
+}
+
+.landing-text-description {
+  margin-bottom: 30rem;
+  line-height: 27rem;
+}
+
+.gotcha-white {
+  position: absolute;
+  height: 70vh;
+  top: 20%;
+  right: 5%;
+  z-index: 5;
+}
+
+.skateur-landing-header {
+  position: absolute;
+  height: 70vh;
+  top: 15%;
+  right: 10%;
+  z-index: 6;
+}
+
+.parallax-landing-main-article {
+  background-image: url(../img/skate-window.jpg);
+}
+
+/* 
+________________
+COUNTDOWN */
+
+.title-line-countdown {
+  background-color: #590c5c;
+}
+
+.countdown-title {
+  color: #590c5c;
+}
+
+.countdown-disposition {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 0;
+  margin: 0 20vw;
+}
+
+.countdown-bloc {
+  width: 200rem;
+  height: 200rem;
+  border: 10px solid #fd575e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  margin-right: 20rem;
+}
+
+.countdown-bloc:last-child {
+  margin-right: 0;
+}
+
+.number {
+  margin-bottom: 10%;
+  color: #590c5c;
+  font-size: 45rem;
+  font-family: "dk_plakkaatregular";
+}
+
+.countdown-id {
+  color: #590c5c;
+  font-size: 30rem;
+  font-family: "Lexend", sans-serif;
+}
+
+/* 
+________________
+SPORT POP */
+
+.sports-article {
+  background-color: #590c5c;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5vh 10vw;
+}
+
+.item-sport {
+  margin-bottom: 20rem;
+  cursor: pointer;
+}
+
+.item-sport:last-child {
+  margin-bottom: 0;
+}
+
+.item-sport span {
+  color: #fff;
+  font-family: "Lexend", sans-serif;
+  font-size: 40rem;
+  font-weight: bold;
+}
+
+.item-sport.active span {
+  color: #fd575e;
+}
+
+.sport-pic {
+  width: 260rem;
+  height: 260rem;
+  border: 10px solid #fd575e;
+  object-fit: cover;
+}
+
+/* 
+________________
+COMPETITION DESCRIPTION ARTICLES */
+
+.competition-description-alignment {
+  display: flex;
+  align-items: center;
+}
+
+.competition-description-alignment:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.competition-description-alignment:nth-child(even) .title-disposition {
+  flex-direction: row-reverse;
+}
+
+.competition-description-alignment:nth-child(even) .second-title-style {
+  text-align: right;
+}
+
+.competition-description-alignment:nth-child(even) .title-line {
+  margin-right: 0;
+  margin-left: 2%;
+}
+
+.competition-description-image {
+  width: 50%;
+  height: 400rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.competition-description-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.competition-description-image .title-disposition {
+  z-index: 1;
+  position: relative;
+}
+
+.competition-description-text {
+  width: 50%;
+  padding: 50rem;
+  max-width: 800rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.competition-description-text-description {
+  color: #590c5c;
+  margin-bottom: 30rem;
+}
+
+.competition-description-button {
+  color: #fd575e;
+  border: 5rem solid #fd575e;
+}
+
+/* 
+________________
+STYLE SHARER */
+
+.style-sharer {
+  background-color: #fc9a00;
+  position: relative;
+  margin-bottom: 240rem;
+}
+
+.style-sharer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-10deg) translateY(80rem);
+}
+
+.style-sharer-item {
+  width: 327rem;
+  height: 436rem;
+  position: relative;
+  cursor: pointer;
+  flex: none;
+  margin-right: 20rem;
+  z-index: 5;
+}
+
+.style-sharer-item:last-child {
+  margin-right: 0;
+}
+
+.style-sharer-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.style-sharer-filter {
+  opacity: 0;
+  background-color: rgba(252, 154, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 300ms ease-in-out;
+}
+
+.style-sharer-filter::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "icomoon";
+  content: "\e906";
+  color: #fff;
+  font-size: 100rem;
+  transform: rotate(10deg);
+  height: 100%;
+}
+
+.style-sharer-item:hover .style-sharer-filter {
+  opacity: 1;
+}
+
+/* 
+________________
+SLOGAN ANIM */
+
+.slogan-anim-container {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.slogan-anim {
+  background-repeat: repeat-x;
+  height: auto;
+  width: 80vw;
+  animation: animslogan 8s linear infinite;
+}
+
+@keyframes animslogan {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+/* 
+________________
+PARALLAXE WINDOW */
+
+.parallax-landing-bottom {
+  background-image: url(../img/nazare-lighthouse.jpg);
+  height: 50vh;
+  margin-bottom: 100rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 40rem;
+  padding-left: 10%;
+  font-family: "dk_plakkaatregular";
+}

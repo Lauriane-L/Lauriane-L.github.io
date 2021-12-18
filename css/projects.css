@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+html {
+  font-size: 1px;
+}
+/*
+________________
+==
+IMAGE APPARITION LEFT/RIGHT  */
+
+.image-apparition.left {
+  transform: translateX(-50%);
+}
+
+.image-apparition.right {
+  transform: translateX(50%);
+}
+
+.image-apparition {
+  opacity: 0;
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+.image-apparition.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/*
+________________
+IMAGE GRILLE   */
+
+.image-grid {
+  width: 100%;
+  height: 450vh;
+  display: flex;
+  padding: 5% 15%;
+  overflow: hidden;
+}
+
+.image-column {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-column:first-child {
+  margin-right: 40px;
+}
+
+.image-column .image-item {
+  min-height: 0;
+  margin-bottom: 40px;
+}
+
+.image-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.image-item:last-child {
+  margin-bottom: 0;
+}
+
+.image-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: none;
+  transition: filter 300ms ease-in-out;
+}
+
+.image-item-number {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 100px;
+  font-family: "p22_johnston_undergroundbold";
+  color: #ebac08;
+  opacity: 0.8;
+}
+
+.image-item .image-item-link {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  font-size: 20px;
+  font-family: "p22_johnston_undergroundbold";
+  color: #25378a;
+  display: flex;
+  align-items: center;
+}
+
+.image-item .image-item-link div {
+  width: 0;
+  transition: width 300ms ease-in-out;
+  overflow: hidden;
+}
+
+.image-item .image-item-link span {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.image-item:hover .image-item-link div {
+  width: 50px;
+}
+
+.image-item:hover img {
+  filter: saturate(150%);
+}
+
+.image-item-1 {
+  flex: 3;
+}
+
+.image-item-2 {
+  flex: 2;
+}
+
+.image-item-3 {
+  flex: 3;
+}
+
+.image-item-4 {
+  flex: 2;
+}
+
+.image-item-5 {
+  flex: 3;
+}
+
+.image-item-6 {
+  flex: 2;
+}
+
+.image-item-7 {
+  flex: 3;
+}
+
+.image-item-8 {
+  flex: 3;
+}
+
+.image-item-9 {
+  flex: 3;
+}
+
+.image-item-10 {
+  flex: 2.5;
+}
+
+.image-item-11 {
+  flex: 5;
+}
+
+.image-item-12 {
+  flex: 1.5;
+}
+
+.image-item-13 {
+  flex: 3;
+}
+
+.image-item-14 {
+  flex: 3;
+}
+
+.image-item-15 {
+  flex: 3;
+}
+
+.image-item-16 {
+  flex: 2;
+}

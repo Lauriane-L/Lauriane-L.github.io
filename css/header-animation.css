@@ -1,0 +1,5 @@
+.site-header {
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: apparition 0.4s 1.8s ease-out forwards;
+}
