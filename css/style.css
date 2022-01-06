@@ -113,6 +113,10 @@ REPEATED STYLES */
   height: 100rem;
 }
 
+.whitespace-small {
+  height: 40rem;
+}
+
 /*
 _________________
 HEADER */
@@ -329,10 +333,6 @@ MAIN ARTICLE */
   animation: apparition 0.8s ease-out forwards;
 }
 
-.plate img {
-  filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.45));
-}
-
 .first-plate {
   left: 25%;
   top: 65%;
@@ -352,7 +352,7 @@ MAIN ARTICLE */
 }
 
 .second-plate img {
-  width: 35%;
+  width: 25%;
 }
 
 .third-plate {
@@ -367,7 +367,7 @@ MAIN ARTICLE */
 }
 
 .forth-plate {
-  left: 25%;
+  left: 35%;
   top: 30%;
   z-index: 0;
   animation-delay: 1s;

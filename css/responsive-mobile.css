@@ -1,5 +1,6 @@
 @media screen and (max-width: 767px) {
   body {
+    overflow: hidden;
     overflow-x: hidden;
   }
 
@@ -66,9 +67,13 @@
     padding-top: 80rem;
   }
 
+  .slide-line::before {
+    display: none;
+  }
+
   .burger {
     position: absolute;
-    right: 20rem;
+    left: 30rem;
     top: 20rem;
     display: block;
     background-color: transparent;
@@ -190,6 +195,9 @@
     left: 35%;
     top: 20%;
   }
+  .main-homepage-article-pictures {
+    margin-bottom: 20rem;
+  }
 
   .download {
     height: 60rem;
@@ -232,7 +240,7 @@
     PAGE CV   */
 
   .cv {
-    height: 80vh;
+    height: 70vh;
   }
 
   /*
